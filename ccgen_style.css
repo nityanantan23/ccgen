@@ -1,0 +1,293 @@
+body{
+	margin:0;
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header{
+	color: #47E10C;
+}
+
+
+.title{
+	font-size: 2rem;
+	padding: 15px;
+	font-family: 'Orbitron', sans-serif;
+	text-shadow: 0px 0px 15px #66B933;
+	text-align: center;
+}
+
+.principal {
+	width: 77%;
+	display: inline-block;
+	vertical-align: top;
+}
+form#console {
+	text-align: center;
+}
+.Ilabel, .input_text,.input_texts {
+	display: -webkit-inline-box;
+	font-family: 'GeosansLight';
+	font-size: 19px;
+}
+.Ilabel {
+	background-color: #232329;
+	padding: 5px;
+	border-radius: 5px 0 0 5px;
+	color: #47E10C;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+}
+
+::placeholder{
+	color:grey;
+}
+.input_text {
+	padding: 6px;
+	border: 0;
+	height: 25px;
+	border-radius: 0 5px 5px 0;
+	vertical-align: bottom;
+	outline: none;
+	font-size:17px;
+	color:#ebebeb;
+	background-color:#2B2B35;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+}
+
+.input_text1 {
+	padding: 6px;
+	border: 0;
+	height: 35px;
+	border-radius: 0 5px 5px 0;
+	vertical-align: bottom;
+	outline: none;
+	font-size:17px;
+	color:#ebebeb;
+	background-color:#2B2B35;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+}
+
+select.input_text {
+	margin-left: -5px;
+	font-size: 16px;
+	background-color:#2B2B35;
+}
+.p {
+	display: -webkit-inline-box;
+	margin-bottom: 12px;
+}
+.s{
+	margin-left: -5px;
+	background: #2B2B35;
+	padding: 5.5px;
+}
+.input_text>label{
+	cursor:pointer;
+}
+
+.clean{
+	background: #4d4f53 ;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	float: right;
+	margin: 0 -12px -12px 0;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all .5s;
+	color: #fff;
+}
+.clean:hover {
+	background: #6f808f;
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	color: #fff;
+
+}
+.cleanit{
+	background: #4d4f53;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	float: right;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all .5s;
+	color: #fff;
+
+}
+.cleanit:hover {
+	background: rgba(0, 0, 0, 0.87);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	color: #fff;
+
+}
+
+.eighty{
+	width:80%;
+}
+
+.Lbutton {
+	color: #fff;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(71, 225, 12, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(71, 225, 12, .9);
+	background:-moz-linear-gradient(top, #232329 5%, #232329 100%);
+	background:-webkit-linear-gradient(top, #232329 5%, #232329 100%);
+	background:-o-linear-gradient(top, #232329 5%, #232329 100%);
+	background:-ms-linear-gradient(top, #232329 5%, #232329 100%);
+	background:linear-gradient(to bottom, #232329 5%, #232329 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#232329', endColorstr='#232329',GradientType=0);
+	background-color:#232329;
+	display:inline-block;
+	cursor:pointer;
+	font-family:'Courier New';
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 40px;
+	text-decoration:none;
+	transition: .5s ease;
+
+}
+.Lbutton:hover {
+	background:-moz-linear-gradient(top, #232329 5%, #232329 100%);
+	background:-webkit-linear-gradient(top, #232329 5%, #232329 100%);
+	background:-o-linear-gradient(top, #232329 5%, #232329 100%);
+	background:-ms-linear-gradient(top, #232329 5%, #232329 100%);
+	background:linear-gradient(to bottom, #232329 5%, #232329 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3B3454', endColorstr='#232329',GradientType=0);
+	background-color:#47E10C;
+	transition: .5s ease;
+}
+.Lbutton:active {
+	position:relative;
+	top:1px;
+}
+.Lbutton:hover, .Lbutton:focus, .Lbutton:active, .Lbutton.active, .open > .dropdown-toggle.Lbutton{
+	color: #47E10C;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+}
+
+/*Textarea*/
+.textarea {
+	background-color:#2B2B35;
+
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(71, 225, 12, .9);
+	width: 100%;
+	color:#ebebeb;
+	font-size: 16px;
+	margin-bottom: 10px;
+	outline: none;
+	font-family: GeosansLight;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.textarea::-webkit-scrollbar {
+	width: 10px;
+}
+.textarea::-webkit-scrollbar-thumb {
+	background: #7EC7C0 !important;
+}
+
+/*Footer*/
+footer {
+	background-color: #232329;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(126, 199, 192, .9);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 38px rgba(126, 199, 192, .9);
+	color:#7EC7C0;
+ padding: 5px;
+	font-size: 13px;
+ text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+a {
+	color:#CECED4;
+}
+
+/*Ajustar*/
+@media (max-width: 376px){
+	.title{
+		font-size: 1.5rem;
+	}
+	.p{
+
+	}
+	.Ilabel{
+		width: 90%;
+		border-radius: 0;
+	}
+	.input_text{
+		width: 80%;
+		border-radius: 0;
+		text-align: -webkit-center;
+		border-right: 0;
+	}
+	.inline{
+		width: 40%;
+	}
+	.hh{
+		text-align: center;
+	}
+}
+@media (max-width: 595px){
+	.form{
+		width:99%;
+		margin: 5px 0 5px 0;
+	}
+}
+@media (max-width: 445px){
+	.item{
+		width:38%;
+	}
+}
+@media (max-width: 745px){
+	.z1,.z2,.z3,.z4,.z5,.z7{
+		width:100%;
+	}
+	.y{
+		display:none;
+	}
+	.z1{
+		background: teal;
+		color: white;
+	}
+}
+@media (max-width: 1016px){
+	.menu,.principal{
+		width:100%;
+	}
+	#a0{
+		display:block;
+	}
+	#menu-sub{
+		display:none;
+	}
+	.item-title{
+		font-size: 20px;
+	}
+}
+@media (min-width: 1017px){
+	#menu-sub{
+		display:block !important;
+	}
+}
+
+li{
+margin-bottom: 1em;
+}	
+
+a {
+	font-size: .5cm;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
